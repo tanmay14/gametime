@@ -1,0 +1,2921 @@
+﻿
+
+Question Text Choice1 Choice2 Choice3 Choice4 Choice5 Grade1 Grade2 Grade3 Grade4 Grade5
+What are the major elements in an object model?
+Abstraction, Encapsulation and persistence
+Hierarchy, concurrency and typing
+Abstraction, encapsulation and hierarchy
+Typing
+0
+0
+1
+0
+
+Which of the following is not a type of object oriented abstraction?
+Abstraction of data
+Abstraction of function
+Abstraction of structure
+Abstraction of name
+0
+0
+0
+1
+
+A pure virtual function or pure virtual method is a virtual function that is required to be implemented by a derived class that is abstract.
+FALSE
+TRUE
+1
+0
+
+Wrapping up of data & functions together in a class is known as _____.
+Overloading
+Data Abstraction
+Polymorphism
+Encapsulation
+0
+0
+0
+1
+
+Including only necessary details and ignoring additional details while defining a class is known as ____.
+Overloading
+Data Abstraction
+Polymorphism
+Encapsulation
+0
+1
+0
+0
+
+Preventing direct access of data-members of the class from outside world is known as ____.
+Polymorphism
+Inheritance
+Data Hiding
+scope resolution.
+0
+0
+1
+0
+
+State the object oriented languages
+C++
+Java
+Eiffel
+All of the above
+0
+0
+0
+1
+
+What is a reference?
+an operator
+a reference is an alias for an object
+used to rename an object
+None of these
+0
+1
+0
+0
+
+A library function exit() causes an exit from
+the loop in which it occurs
+the block in which it occurs
+the function in which it occurs
+the program in which it occurs
+0
+0
+0
+1
+
+In Object-oriented programming, the problem is divided into _____.
+classes & objects
+functions
+structures
+modules
+1
+0
+0
+0
+
+A class is ____ datatype.
+primitive
+derived
+user-defined
+All of these
+0
+0
+1
+0
+
+A class is a collection of ____ and _____.
+data-members & member functions
+data-members, member functions and main()
+data-members, member functions, main() and
+None of these
+1
+0
+0
+0
+
+include statements
+An object is ……
+a variable of class datatype
+same as a class.
+just like a global variable
+collection of data-members alone
+1
+0
+0
+0
+
+In OOPS unit of data is called as
+Bits
+Blocks
+Structures
+Targets
+0
+0
+1
+0
+
+There is no difference between an object and an instance.State true or false
+FALSE
+TRUE
+1
+0
+
+A pure virtual function or pure virtual method is a virtual function that is required to be implemented by a derived class that is abstract.
+FALSE
+TRUE
+1
+0
+
+Creating a new class using one or more existing classes is known as ____.
+Polymorphism
+Encapsulation
+overloading
+inheritance
+0
+0
+0
+1
+
+Ability of an operator or function call to take different forms is known as ____.
+Polymorphism
+Encapsulation
+overloading
+inheritance
+1
+0
+0
+0
+
+If a class C is derived from class B, which is derived from class A, all through public inheritance, then a class C member function can access
+protected and public data only in C and B.
+protected and public data only in C
+private data in A and B.
+protected data in A and B
+0
+0
+0
+1
+
+RunTime Polymorphism is achieved by ______
+friend function
+virtual function
+operator overloading
+function overloading
+0
+1
+0
+0
+
+Which of the statements is true in a protected derivation of a derived class from a base class?
+Private members of the base class become protected members of the derived class
+Protected members of the base class become public members of the derived class
+Public members of the base class become protected members of the derived class
+Protected derivation does not affect private and protected members of the derived class.
+0
+0
+1
+0
+
+Mechanism of deriving a class from another derived class is known as____
+Polymorphism
+Single Inheritance
+Multilevel Inheritance
+Message Passing
+0
+0
+1
+0
+
+Which of the following statements is NOT valid about operator overloading?
+Only existing operators can be overloaded.
+Overloaded operator must have at least one operand of its class type.
+The overloaded operators follow the syntax rules of the original operator.
+none of the above.
+0
+0
+0
+1
+
+Which of the following is the valid class declaration header for the derived class d with base classes b1 and b2?
+class d : public b1, public b2
+class d : class b1, class b2
+class d : public b1, b2
+class d : b1, b2
+1
+0
+0
+0
+
+A class defined within another class is:
+Nested class
+Inheritance
+Containership
+Encapsulation
+1
+0
+0
+0
+
+The major goal of inheritance in c++ is:
+To facilitate the conversion of data types.
+To help modular programming.
+To extend the capabilities of a class
+To hide the details of base class.
+0
+0
+1
+0
+
+The following can be declared as friend in a class
+an object
+a class
+a public data member
+a private data member
+0
+1
+0
+0
+
+Which of the following operator can be overloaded through friend function?
+-&gt;
+( )
+equal to
+*
+0
+0
+0
+1
+
+A class cannot inherit members from more than one class. (State whether true or false)
+TRUE
+FALSE
+0
+1
+
+By default, all members of a class have ___________ access for all its members
+Public
+Protected
+No access
+private
+0
+0
+0
+1
+
+Functions can be declared with default values in parameters. We use default keyword to specify the value of such parameters State whether the statement is true or false
+TRUE
+FALSE
+0
+1
+
+Overloaded functions are
+Very long functions that can hardly run
+One function containing another one or more functions inside it.
+Two or more functions with the same name but different number of parameters or type.
+None of the listed options
+0
+0
+1
+0
+
+Identify the correct statement regarding scope of variables
+Global variables are declared in a separate file and accessible from any program.
+Local variables are declared inside a function and accessible within the function only.
+Global variables are declared inside a function and accessible from anywhere in program.
+Local variables are declared in the function that can be accessible outside from any other functions.
+0
+1
+0
+0
+
+You can use C++ as a procedural, as well as an object-oriented, language
+TRUE
+FALSE
+1
+0
+
+When the compiler cannot differentiate between two overloaded constructors, they are called
+overloaded
+destructed
+ambiguous
+dubious
+0
+0
+1
+0
+
+To be called object-oriented, a programming language must allow which of the following features
+Overloading
+polymorphism
+inheritance
+All of the above
+0
+0
+0
+1
+
+Header files in C++ often have the file extension _____
+.H
+.HE
+.HEA
+.HEAD
+1
+0
+0
+0
+
+When a child class function is called, the compiler looks first for a matching function name in the _____
+class of the object using the function name
+immediate ancestor class
+base class
+descendant class
+1
+0
+0
+0
+
+Paying attention to the important properties while ignoring inessential details is known as
+selectiveness
+polymorphism
+abstraction
+summarizing
+0
+0
+1
+0
+
+A base class may also be called a
+child class
+subclass
+derived class
+parent class
+0
+0
+0
+1
+
+Which of the following statements is correct?
+Base class pointer cannot point to derived class.
+Derived class pointer cannot point to base class.
+Pointer to derived class cannot be created.
+Pointer to base class cannot be created.
+0
+1
+0
+0
+
+Which of the following is not the member of class?
+Static function
+Friend function
+Const function
+Virtual function
+0
+1
+0
+0
+
+How many instances of an abstract class can be created?
+1
+5
+13
+0
+0
+0
+0
+1
+
+Which of the following concepts of OOPS means exposing only necessary information to client?
+Encapsulation
+Abstraction
+Data hiding
+Data binding
+0
+0
+1
+0
+
+Which of the following is not a feature of C++ ?
+Operator overloading
+Namespaces
+Inheritance
+Reflection
+0
+0
+0
+1
+
+Overloading the function operator
+requires a class with an overloaded operator.
+requires a class with an overloaded [ ] operator.
+allows you to create objects that act syntactically like functions.
+usually make use of a constructor that takes arguments.
+1
+0
+0
+0
+
+How many access specifiers are present in C++ programming class?
+1
+2
+3
+4
+0
+0
+1
+0
+
+Which of the following is a valid class declaration?
+class A { int x; };
+class B { }
+class B { }
+object A { int x; };
+1
+0
+0
+0
+
+To overload an operator _____________keyword must be used along with the operator to be overloaded.
+Over
+Overload
+void
+Operator
+0
+0
+0
+1
+
+When an object has many forms, it has _____.
+Scalability
+Inheritence
+Polymorphism
+Encapsulation
+0
+0
+1
+0
+
+By polymorphism of a subsystem we mean
+it should be reusable
+it should have polymorphic data types
+it should accept generic commands and interpret appropriately
+None of the listed options
+0
+0
+1
+0
+
+All objects have (i) attributes (ii) states (iii)a set of operations (iv) a unique identity
+i, ii, iii
+ii, iii, iv
+i, iii, iv
+i, ii, iii, iv
+0
+0
+0
+1
+
+Which of the following operator can not be overloaded ?
+Scope resolution operator
+Equality operator
+Assignment Operator
+None of the listed options
+1
+0
+0
+0
+
+Which of the following statement is correct?
+C++ allows static type checking.
+C++ allows dynamic type checking.
+C++ allows static member function be of type const.
+None of the listed options
+C++ allows global member function
+1
+1
+0
+0
+0
+
+be of type const.
+Which of the following ways are legal to access a class data member using this pointer?
+this-&gt;x
+this.x
+*this.x
+*this-x
+1
+0
+0
+0
+
+Which special character is used to mark the end of class?
+;
+:
+#
+$
+1
+0
+0
+0
+
+Procedure oriented Programs are called as
+Structured programming
+Object oriented programming
+Functional programming
+None of the listed options
+1
+0
+0
+0
+
+A __________ is an abstract idea that can be represented with data structures and functions.
+class
+object
+loop
+data type
+1
+0
+0
+0
+
+Automatic Initialization of object is carried out using a special member function called ____________________
+friend
+casting
+reference parameter
+constructor.
+0
+0
+0
+1
+
+In C++ a class can allow non-member functions and other classes to access its own private data, by making them as _________________.
+private
+protected
+Friend
+public
+0
+0
+1
+0
+
+In c++ ___________ Operator is used for Dynamic memory allocation
+Scope resolution
+Conditional
+New
+Membership access
+0
+0
+1
+0
+
+The advantages of OOP are , 1. increased programming productivity 2. decreased maintenance costs. 3. less time to execute 4. easy to understand
+1& 3
+1& 2
+3& 4
+2& 3
+0
+1
+0
+0
+
+State True or False 1. Public data members can be accessed directly in the main function without an object. 2. Constructors can be overloaded.
+1-F, 2-F
+1-F, 2-T
+1-T, 2-T
+1-T, 2-F
+0
+1
+0
+0
+
+Match the following. A) Self review B) Formal review C) Informal review 1. Conducted by one or
+A - 1, B - 2, C - 3
+A - 2, B - 3, C - 1
+A - 3, B - 2, C - 1
+A - 3, B - 1, C - 2
+A - 2, B - 1, C - 3
+0
+0
+1
+0
+0
+
+more peers in the team 2. Conducted by one or more reviewers or SME 3. Conducted by the author himself
+Review of Test case Artifact is done with the help of?
+Checklist
+Self review
+Peer review
+Author
+Reviewer
+1
+0
+0
+0
+0
+
+What are the possible causes for ending up into 0.1 % defective application?
+Misunderstood requirements
+Defective code
+Less knowledge on development language
+Developers tend to neglect test approach to the developed product.
+Lack of domain knowledge
+1
+1
+0
+1
+1
+
+In causal analysis which attributes among below assist in analyzing the effect?
+Reason
+Cause
+Test Approach
+Requirement gathering
+Failures
+1
+1
+0
+0
+0
+
+Software testing ensures which of the below?
+Usage of design architecture
+Use of proper test approach
+Proper causal analysis
+Requirement satisfaction and usage of best design architecture
+None of the above
+0
+0
+0
+1
+0
+
+State whether true or false. Selenium tools helps to develop Automated test scripts
+TRUE
+FALSE
+1
+0
+
+Test environment check up is part of _________ .
+Test Scenario
+Test Execution
+Test Design
+Test Development
+None of the above
+0
+1
+0
+0
+0
+
+State whether true or false. QC is used for logging the outcome of the test execution.
+TRUE
+FALSE
+1
+0
+
+Which of the following map the corresponding phases from SDLC with STLC.
+Requirement Analysis - Test Planning Design and Code - Test Design Testing - Component Integration testing and System testing
+Requirement Analysis - Test Design Design and Code - Test Planning Testing - Component Integration testing and System testing
+Requirement Analysis - Test Planning Design and Code - Test Design Testing - Unit Testing
+Requirement Analysis - Test Planning Design and Code - Unit Testing Testing - Component Integration testing and System testing
+None of the above
+1
+0
+0
+0
+0
+
+Which of the statements is applicable to software testing?
+Helps in identifying defects
+Helps prevent the defects
+Helps to provide a reliable system
+Helps to identify completeness of the software
+None of the above
+1
+1
+1
+1
+0
+
+State whether True or False. Iterative model is an example of a methodology used for software development.
+TRUE
+FALSE
+1
+0
+
+State whether True or False. Each SDLC model follows the same life cycle in order to ensure success in the process of software development
+TRUE
+FALSE
+1
+0
+
+Which statements are applicable to V model?
+Includes verification on right arm and validation on left arm of the V shape
+Integration test plan is prepared based on detailed design phase
+System test plan is prepared based on user requirements
+Acceptance testing is the last phase
+System testing is done after integration testing
+0
+0
+0
+1
+1
+
+State whether True or False. Test Design is done after requirement analysis and before test execution
+TRUE
+FALSE
+1
+0
+State whether True or False. Test Design involves the activity of prioritizing the test cases
+TRUE
+FALSE
+0
+1
+
+State whether True or False. Test Design process involves only Test development process
+TRUE
+FALSE
+0
+1
+
+State whether True or False. Unit testing is done - To test the smallest piece of code Is done on source code
+TRUE
+FALSE
+1
+0
+State whether True or False. Regression test cases are
+TRUE
+FALSE
+1
+0
+
+identified in Test development process
+Which statements are applicable to Test Scenarios?
+Done after Requirement elicitation
+Allows ease of review by developers
+Helps in identifying defects
+Functions to bridge the requirement analysis and test development
+Used to create a clear and simple flow of a complex system
+0
+0
+1
+1
+1
+
+Which statement is correct with regards to Pre Condition?
+These are required to be set for performing the activity to achieve the goal
+These are required to be verified by tester after the activity is performed
+These are required to be verified by developer after the activity is performed
+These are required to be set for planning the activity to achieve the goal
+None of the above
+1
+0
+0
+0
+0
+
+Which statement is correct with regards to Post Condition?
+These are required to be set for performing the activity to achieve the goal
+These are required to be verified by tester after the activity is performed
+These are required to be verified by developer after the activity is performed
+These are required to be set for planning the activity to achieve the goal
+None of the above
+0
+1
+0
+0
+0
+
+Which of the following is not a step involved to arrive at a test case?
+Identify test conditions
+Identify input variables, different options for the input variables
+Combine scenarios with test conditions
+Combine on split test cases for different flows
+None of the above
+0
+0
+0
+1
+0
+
+The process of creating complete set of test cases is called?
+Test Scenario
+Test Case
+Test Development
+Test Execution
+None of the above
+0
+0
+1
+0
+0
+
+State whether True or False. While writing Test scenarios we can replace requirement ID with use case name.
+TRUE
+FALSE
+0
+1
+
+Question Text Choice1 Choice2 Choice3 Choice4 Choice5 Grade1 Grade2 Grade3 Grade4 Grade5
+State whether True or False. 
+A use case can result into more than one scenario.
+TRUE
+FALSE
+1
+0
+
+Test conditions can be valid or invalid (State True or False)
+TRUE
+FALSE
+1
+0
+
+Alternate flows can be
+TRUE
+FALSE
+0
+1
+tested by themselves (State Frue or false)
+Test scenarios have to be written with the consideration of ?
+Business rules
+Functional standards
+Non functional standards
+All of the above
+None of the listed options
+1
+1
+1
+0
+0
+
+Test Secnarios have case specific data assigned to them (State True or False)
+TRUE
+FALSE
+0
+1
+
+Test data preparation data is done during _________ ?
+Test Scenario identification process
+Test Development process
+Test Execution process
+Test condition defining process
+0
+1
+0
+0
+
+An input field takes the birth year of the user ranging from 1960 to 1995. The boundary values for testing this field are?
+0,1960,1995
+1960, 1995, 1996
+1959, 1960, 1961, 1994, 1995, 1996
+0, 1959, 1960, 1961, 1994, 1995, 1996
+1959, 1960, 1994, 1995
+0
+0
+1
+0
+0
+
+State whether True or False. Testers should be involved in reviewing documents as soon as drafts are available in the development cycle.
+TRUE
+FALSE
+1
+0
+
+A procedure used to derive and or select test cases is called?
+Requirement Analysis
+Test Planning
+Test Design
+Test Execution
+Test Design and Execution
+0
+0
+1
+0
+0
+
+Testing during the design stage involves?
+Examining the design documents
+Reading drafts of the planning documents
+Integration Testing
+1 and 3
+None of the above
+1
+0
+0
+0
+0
+
+State whether true or false. Informal review is done after formal review.
+TRUE
+FALSE
+0
+1
+
+Review report is created in which type of review?
+Self review
+Informal review
+Formal review
+All of the above
+None of the above
+0
+0
+1
+0
+0
+
+For a given set of boundaries, how many boundary values are possible?
+2
+4
+6
+8
+None of the above
+0
+0
+1
+0
+0
+
+We derive _________ by using the test design techniques
+Test Scenario
+Test condition
+Test case
+All of the above
+None of the above
+0
+0
+1
+0
+0
+
+Which of the following statements is/are true?
+Test scenario involves the expected results.
+Test case includes the method of how the test would be performed.
+Test scenario define the setup to perform the tests
+Test case includes the steps to execute.
+Test cases are developed from Test conditions.
+0
+1
+0
+1
+0
+
+Which is the correct order to be followed for a Build Verification Process?
+A. Build the compiled code into software B. Add the release notes C. Perform Smoke/ Sanity Test D. Test Execution
+A. Review the code B. Build the compiled code into software C. Perform Smoke/ Sanity Test D. Test Execution
+A. Build the compiled code into software B. Add the release notes C. Perform Smoke/ Sanity Test D. Rebuild the compiled code after bug fixing E. Update the release notes F. Perform Smoke/ Sanity Test G. Perform Test Execution if Smoke/ Sanity test is a pass
+A. Build the compiled code into software B. Add the release notes C. Perform Smoke/ Sanity Test D. Test Execution E. Rebuild the compiled code after defect fixing F. Update the release notes G. Perform Smoke/ Sanity Test H. Perform Test Execution if Smoke/
+None of the above
+0
+0
+1
+0
+0
+
+Sanity test is a pass
+The conditions that need to be verified by the tester after the activity is performed are called _________?
+Pre condition
+Post condition
+Triggers
+Exceptions
+0
+1
+0
+0
+
+A defect is found after retest. What are all the possible stages this defect may undergo?
+Open, Fixed, Reopen, Closed
+Reopen, Fixed, Closed
+Defferred, Open, Fixed, Reopen, Closed
+Reopen, Fixed
+0
+1
+0
+0
+
+What are the action items if an application does not behave as expected?
+Update status of the defect
+Log defect
+Retest
+Execute next test step of same test case
+1
+1
+0
+0
+
+Which is not a major task of test implementation and execution?
+Develop and prioritizing test cases, creating test data, writing test procedures and optionally, preparing test harness and writing automated test scripts
+Logging the outcome of test execution and recording the identities and versions of the software under test, test tools and testware
+Verifying that the test environment has been set up correctly
+Checking test logs against the exit criteria specified in test planning
+3 and 4
+0
+0
+0
+1
+0
+
+What are the subsequent states that a new defect can undergo?
+Rejected
+Open
+Deferred
+Fixed
+Closed
+1
+1
+1
+0
+0
+
+State whether True or False. Triage meeting is done before fixing the defect.
+TRUE
+FALSE
+1
+0
+State whether True or False. Developer has to ensure that the pre requisite of each test case are met.
+True
+FALSE
+0
+1
+State whether True or False. Release notes are prepared
+TRUE
+FALSE
+0
+1
+
+by developer/ development team.
+Which of the below is not an activity involved in Test execution process?
+Buil d verification process
+Test data setup
+Test case execution
+Defect Tracking
+Retesting of defects
+0
+1
+0
+0
+0
+
+Question Text Choice1 Choice2 Choice3 Choice4 Choice5 Grade1 Grade2 Grade3 Grade4 Grade5
+In requirements validation the requirements model is reviewed to ensure its technical feasibility. State True/False
+TRUE
+FALSE
+0
+1
+
+Software engineering aims at developing
+Reliable Software
+Cost Effective Software
+Reliable and cost effective Software
+None Of Above
+0
+0
+1
+0
+
+Software Engineering approach is used to achieve
+Better performance of h/w
+Error free s/w
+Reusable software
+Quality software product
+0
+0
+0
+1
+
+The best way to conduct a requirements validation review is to
+send them to the design team and see if they have any concerns
+use a checklist of questions to examine each requirement
+have the customer look over the requirements
+examine the system model for errors
+0
+1
+0
+0
+
+Project risk factor is considered in
+Water fall
+Spiral
+Prototype
+All of the above
+0
+1
+0
+0
+
+Management of software development is dependent upon
+People
+Product
+Process
+All of the above
+0
+0
+0
+1
+
+Milestones are used to
+Know the cost of the project
+Know the status of the project
+Know the user expectations
+None of the above
+0
+1
+0
+0
+
+The review is one of the methods of V&V. The other methods are
+Inspection
+Walkthrough
+Testing
+All of the above
+0
+0
+0
+1
+
+Which of the following is not Risk characteristic
+Inherent in every project
+Neither intrinsically good not bad
+Something to fear but not something to manage
+Probability of loss
+0
+0
+1
+0
+
+The Prototype is a
+Working model of existing system
+Mini model of existing system
+Mini model of processed system
+None of the above
+1
+0
+0
+0
+
+Which is not the responsibility of customer/ user of the software
+Plan how and by whom each acceptance activity will be performed
+Prepare the acceptance plan
+Prepare resource plan
+Plan resources for providing information on which to base acceptance decisions
+0
+0
+1
+0
+
+Software Engineering is the systematic approach to the development, operation, maintenance and retirement of software. This definition is given by_________
+IEEE
+Bauer
+Boehm
+Charles Babbage
+1
+0
+0
+0
+
+Software engineering umbrella activities are only applied during the initial phases of software development projects. State True or False
+TRUE
+FALSE
+0
+1
+Which of the items listed below is not one of the software engineering layers
+Process
+Manufacturing
+Methods
+Tools
+0
+1
+0
+0
+
+A stakeholder is anyone who will purchase the completed software system under development. State True/False
+TRUE
+FALSE
+0
+1
+Major component of Risk Analysis are
+The probability that the negative event will occur
+The potential loss is very high
+The potential loss or impact associated with the event
+A and C.
+0
+0
+0
+1
+
+Change cannot be easily accommodated in most software systems, unless the system was designed with change in mind. State True/False
+TRUE
+FALSE
+1
+0
+Which phase is not available in s/w life cycle
+Coding
+Design
+Specifications
+Installation & Maintenance
+0
+0
+0
+1
+
+The work products produced during requirement elicitation will vary
+size of the product being built
+size of the budget
+software process being used
+stakeholders needs
+1
+0
+0
+0
+
+The term module in the design phase refers to
+Functions
+Procedures
+Sub programs
+All of the above
+0
+0
+0
+1
+
+Which of the following is the correct definition for DFD
+The modern version of flowchart
+Mainly used at systems specification stages
+The primary output of the system design phase
+All the above
+0
+0
+1
+0
+
+In system design, we do following
+Hardware design after software
+Software design after hardware
+Parallel hardware and software design
+No hardware design needed
+0
+0
+1
+0
+
+In object oriented design of software , objects have
+attributes and names only
+operations and names only
+attributes, name and operations
+None of above
+0
+0
+1
+0
+
+Informational cohesion is a realization of
+data abstraction
+structured programming
+Modularity
+Concurrency
+1
+0
+0
+0
+
+Software is a product and can be manufactured using the same technologies used for other engineering artifacts. State True or False
+TRUE
+FALSE
+0
+1
+Object-oriented analysis techniques can be used to identify and refine user task objects and actions without any need to refer to the user voice. State True/False
+TRUE
+FALSE
+0
+1
+Which of these criteria are useful in assessing the effectiveness of a particular design notation
+size
+maintainability
+simplicity
+modularity
+b,c and d
+0
+0
+0
+0
+1
+
+Which of these is a graphical notation for depicting procedural detail
+decision table
+process diagram
+flowchart
+ER diagram
+0
+0
+1
+0
+
+Which of the following comments about object oriented design of software, is not true
+Objects inherit the properties of class
+Classes are defined based on the attributes of objects
+an object can belong to two classes
+classes are always different
+0
+0
+1
+0
+
+The entity relationship diagram
+depicts relationships between data objects
+indicates system reactions to external events
+depicts functions that transform the data flow
+indicates how data are transformed by the system
+1
+0
+0
+0
+
+The data flow diagram must be augmented by descriptive text in order to describe the functional requirements for a software product. State True/False
+TRUE
+FALSE
+1
+0
+Which is not a software life cycle model
+Water fall
+Spiral
+Prototype
+Capability Maturity Model
+0
+0
+0
+1
+
+If requirements are understandable, easy, defined, which model is best suited
+Water fall
+Spiral
+Prototype
+None
+1
+0
+0
+0
+
+If requirements are frequently changing, which model is best suited
+Water fall
+Spiral
+Prototype
+RAD
+0
+0
+1
+0
+
+A data model consists of the following information
+Data Object
+The attributes that describe data object
+Relationship that connect data object to one another
+All of the above
+0
+0
+0
+1
+
+The incremental model of software development is
+A good approach when a working core product
+A reasonable approach when requirements are well defined
+The best approach to use for projects with large development
+A revolutionary model that is not used
+1
+0
+0
+0
+is required quickly
+teams.
+for commercial products
+The prototyping model of software development is
+The best approach to use for projects with large development teams
+A risky model that rarely produces a meaningful product
+A useful approach when a customer cannot define requirements clearly
+A reasonable approach when requirements are well defined
+0
+0
+1
+0
+
+Which of following is not a UML diagram used creating a system analysis model
+Dataflow diagram
+Class diagram
+Activity diagram
+State diagram
+0
+0
+1
+0
+
+Control flow diagrams are
+needed to model event driven systems.
+required for all systems.
+used in place of data flow diagrams.
+useful for modeling real-time systems.
+both a and d
+0
+0
+0
+1
+0
+
+The object relationship pair of data model is represented graphically by using
+Data flow diagram
+Flow chart
+Entity relationship diagram
+All of the above
+0
+0
+1
+0
+
+Using software process improvement model will help a company
+To decrease development time
+To meet schedule
+To decrease the defect rate
+To increase profitability
+all of them
+0
+0
+0
+0
+1
+
+Data structure suitable for the application is discussed in ?
+data design
+architectural design
+procedural design
+interface design
+1
+0
+0
+0
+
+Process models are described as agile because they
+eliminate the need for cumbersome documentation
+make extensive use of prototype creation
+do not waste development time on planning activities
+emphasize maneuverability and adaptability
+0
+0
+0
+1
+
+Software processes can be constructed out of pre-existing software patterns to best meet the needs of a software project. State True or False
+TRUE
+FALSE
+1
+0
+
+The following s/w process model can be represented schematically as a series of major technical activities and there associated sate
+Incremental model
+Component assembly
+Concurrent development model
+All of the above
+0
+0
+1
+0
+
+Which one is the most important feature of spiral model
+Quality management
+Risk Management
+Performance Management
+Efficiency management
+0
+1
+0
+0
+
+To produce a good quality product, process should be
+Complex
+Efficient
+Rigorous
+None
+0
+1
+0
+0
+
+If Quality Control and Quality Assurance are compared
+Both are literally the same
+QA is a higher activity in the management Hierarchy
+QC is a higher activity in the management Hierarchy
+QA is done by the client and QC is done by the software vendor
+0
+0
+1
+0
+
+Who is essentially responsible for the quality of a product
+Customer
+QA Manager
+Development Manager
+0
+0
+1
+
+What is used to measure the characteristics of the documentation and code
+Process metrics
+Product metrics
+Software Quality metrics
+None of the above
+0
+1
+0
+0
+
+What are the qualities of a good s/w
+Reusability
+Portability
+Inter Operability
+All The Above
+0
+0
+0
+1
+
+A key concept of quality control is that all work products
+are delivered on time and under budget
+have measurable specifications for process outputs
+are thoroughly tested before delivery to the customer
+have complete documentation
+0
+1
+0
+0
+
+Software safety is a quality assurance activity that focuses on hazards that
+affect the reliability of a software component
+may result from user input errors
+prevent profitable marketing of the final product
+may cause an entire system to fail
+0
+0
+0
+1
+
+What exactly Baseline means
+A single software product that may or may not fully support a business function
+A quantitative measure of the current level of performance
+A test or analysis conducted after an application is moved into production
+None of the above
+0
+1
+0
+0
+
+What is configuration management in software engineering
+overall management of the design of the system
+management of the configurable components in a system
+the identification of the configuration of a system at discreet points in time to control changes to the configuration
+in object-oriented programming, the management of objects that control the configuration of some other
+0
+0
+1
+0
+
+function(s) in the system
+Which of the following tasks is not part of software configuration management?
+change control
+version control
+reporting
+statistical quality control
+0
+0
+0
+1
+
+Which of these are valid software configuration items?
+documentation
+software tools
+test data
+executable programs
+all of the above
+0
+0
+0
+0
+1
+
+The primary purpose of configuration status reporting is to
+evaluate the performance of software developers and organizations
+make sure that change information is communicated to all affected parties
+allow revision of project schedules and cost estimates by project managers
+none of the above
+0
+1
+0
+0
+
+A new __________ is defined when major changes have been made to one or more configuration objects.
+variant
+entity
+item
+version
+0
+0
+0
+1
+
+In software quality assurance work there is no difference between software verification and software validation. State True/False
+TRUE
+FALSE
+0
+1
+
+People who perform software quality assurance must look at the software from the customer's perspective.
+TRUE
+FALSE
+1
+0
+
+Variation control in the context of software engineering involves controlling variation in the
+process applied
+product quality attributes
+resources expended
+all of the above
+0
+0
+0
+1
+
+The goal of quality assurance is to provide management with the data needed to determine which software engineers are producing the most defects.
+TRUE
+FALSE
+0
+1
+
+The purpose of software reviews is to uncover errors in work products so they can be removed before moving on to the next phase of development.
+TRUE
+FALSE
+1
+0
+
+The ability to track relationships and changes to configuration objects is one of the most important features of the SCM repository.
+TRUE
+FALSE
+1
+0
+
+A basic configuration object is a __________ created by a software engineer during some phase of the software development process.
+program data structure
+unit of information
+a software component
+all of the above
+0
+0
+1
+0
+
+When software configuration management is a formal activity, the software configuration audit is conducted by the
+quality assurance group
+development team
+senior managers
+testing specialists
+1
+0
+0
+0
+
+Question Text Choice1 Choice2 Choice3 Choice4 Choice5 Grade1 Grade2 Grade3 Grade4 Grade5
+Statement 1: A subquery is also called an inner query or inner select, while the statement containing a subquery is also called an outer query or outer select. Statement 2: A subquery can be nested inside the WHERE or HAVING clause of an outer SELECT, INSERT, UPDATE, or DELETE statement, or inside another subquery. Which of the above statements are TRUE?
+Only statement 1
+Only statement 2
+Both statement 1 and statement 2 None of the listed options
+0
+0
+1
+0
+
+A query is called correlated subquery when both the inner query and the outer query are interdependent. State whether the above statement is TRUE or FALSE.
+TRUE
+FALSE
+1
+0
+
+Statement 1: If a subquery is not dependent on the outer query it is called a non-correlated subquery. Statement 2: Subqueries cannot be used with the comparison
+Only statement 1
+Only statement 2
+Both statement 1 and statement 2 None of the listed options
+1
+0
+0
+0
+
+operators. Which of the above statements are TRUE?
+An index helps speed up SELECT queries and WHERE clauses, but it slows down data input, with UPDATE and INSERT statements. State whether the above statement is TRUE or FALSE.
+TRUE
+FALSE
+1
+0
+
+Which of the given options are TRUE?
+An inline view exists only inside of the FROM clause as a run-time result set.
+A subquery exists only inside of the FROM clause as a run-time
+An inline view exists only inside of the WHERE clause as a run-time result set. All listed options
+1
+0
+0
+0
+
+To remove duplicate rows from the result set of a SELECT use the following keyword:
+NO DUPLICATE
+UNIQUE
+DISTINCT
+None of the listed options
+0
+0
+1
+0
+
+Which of the following can add a row to a table?
+Add
+Insert
+Update
+Alter
+0
+1
+0
+0
+
+Which SQL statement is used to insert a new data in a database?
+INSERT INTO
+UPDATE
+ADD
+INSERT NEW
+1
+0
+0
+0
+
+In a LIKE clause, you can could ask for any value ending in "qpt" by writing
+LIKE %qpt
+LIKE *ton
+LIKE ton$
+LIKE ^.*ton$
+1
+0
+0
+0
+
+In a LIKE clause, you can ask for any 6 letter value by writing?
+LIKE ??????
+LIKE .{6} Answer 5: LIKE ^.{6}$
+LIKE ...... (that's six dots)
+LIKE ______ (that's six underscore characters)
+0
+0
+0
+1
+
+The result of a SELECT
+TRUE
+FALSE
+1
+0
+
+statement can contain duplicate rows.
+A table may be joined to itself.
+TRUE
+FALSE
+1
+0
+
+Which of the following is not a valid aggregate function?
+COUNT
+MIN
+MAX
+COMPUTE
+0
+0
+0
+1
+
+What SQL clause is used to restrict the rows returned by a query?
+AND
+WHERE
+HAVING
+FROM
+0
+1
+0
+0
+
+Primary Key does allow the Null Values. where as in Unique key doesn't accept the Null values. State whether the statement is true or false
+TRUE
+FALSE
+0
+1
+
+Which of the following commands should be used to create a database named “student”?
+CREATE ?I student
+CREATE DATABASE student
+DATABASE /student
+DATABSE student
+0
+1
+0
+0
+
+Which one will delete the table data as well as table structure?
+TRUNCATE
+DROP
+REMOVE
+DISTINCT
+0
+1
+0
+0
+
+A SELECT command without a WHERE clause returns?
+All the records from a table that match the previous WHERE clause
+All the records from a table, or information about all the records
+SELECT is invalid without a WHERE clause
+Nothing
+0
+1
+0
+0
+
+What does the ALTER TABLE clause do? The SQL ALTER TABLE clause is used to insert data into database table. The SQL ALTER TABLE deletes data from database table. The SQL ALTER TABLE clause modifies a table definition by altering, adding, or deleting table columns and/or constraints. The SQL ALTER TABLE clause is used to delete a database table 0 0 1 0 Can you use combination of GROUP BY clause,HAVING clause and WHERE clause SQL TRUE FALSE 1 0
+clauses in one SQL statement? What is a primary key? The primary key is a column that can have NULL values. The primary key is a column or combination of columns whose values uniquely identify each row in the table. The primary key column is a column or combination of columns whose values can be non-unique. 0 1 0 What is the purpose of the SQL AS clause? The AS clause defines a search condition The AS SQL clause is used to change the name of a column in the result set or to assign a name to a derived column. The AS clause is used with the JOIN clause only. 0 1 0 Which two are true about aggregate functions?(Choose two) You can use aggregate functions in any clause of a SELECT statement. You can use aggregate functions only in the column list of the SELECT clause and in the WHERE clause of a SELECT statement. You can mix single row columns with aggregate functions in the column list of a SELECT statement by grouping on the single row columns. You can pass column names, expressions, constants, or functions as parameters to an aggregate function. 0 0 1 1 Which clause should you use to exclude group results? WHERE HAVING RESTRICT GROUP BY 0 1 0 0 Which of the following SQL statements is correct? SELECT CustomerName, COUNT(CustomerName) FROM Orders ORDER BY CustomerName SELECT CustomerName, COUNT(CustomerName) FROM Orders SELECT CustomerName, COUNT(CustomerName) FROM Orders GROUP BY CustomerName 0 0 1 The SQL DROP TABLE clause is create a new table in the database delete a table from the database modify an existing table in a database 0 1 0
+used to... We refer to a join as a self-join when? we are joining table to itself we are using left and right join together we are joining more than 2 tables 1 0 0 The INNER JOIN clause… returns all rows from 2 tables returns all rows that have matching value in the field on which the 2 tables are joined. returns only the rows from the first table, which have non-matching values with the second table in the field on which the 2 tables are joined. 0 1 0 If table A have 10 rows and table B have 5 rows, how many rows will be returned if you perform a cartesian join on those two tables? 5 50 10 15 0 1 0 0 Which syntax would be used to retrieve all rows in both the EMPLOYEES and DEPARTMENTS tables, even when there is no match? Outer join Inner join Self join Natural join 1 0 0 0 The main reason that constraints are added to a table is: Constraints add a level of complexity Constraints ensure data integrity Constraints gives programmers job security None of the listed options 0 1 0 0 To automatically delete rows in a child table when a parent record is deleted use: ON DELETE SET NULL ON DELETE ORPHAN ON DELETE CASCADE None of the listed options 0 0 1 0 A table can have more TRUE FALSE 1 0
+than one UNIQUE key constraint. True or False? A column defined as NOT NULL can have a DEFAULT value of NULL. True or False? TRUE FALSE 0 1 A table must have at least one not null constraint and one unique constraint. True or False? TRUE FALSE 0 1 The ___________ join is the ANSI-standard syntax used to generate a Cartesian product. NATURAL ALL FULL CROSS 0 0 0 1 In the relational model, relationships between relations or tables are created by using: composite keys. determinants. candidate keys foreign keys. 0 0 0 1 Which two statements are true regarding the ORDER BY clause? (Choose two) The sort is in ascending order by default. The ORDER BY clause comes last in the SELECT statement. The sort is in descending order by default The ORDER BY clause is executed on the client side 1 1 0 0 What is true about joining tables through an equijoin? You can join a maximum of two tables through an equijoin. You can join a maximum of two columns through an equijoin. You can join n tables (all having single column primary keys) in a SQL statement by specifying a minimum of n-1 join All listed options 0 0 1 0
+conditions. The CUSTOMERS table has these columns: CUSTOMER_ID NUMBER(4) NOT NULL CUSTOMER_NAME VARCHAR2(100) NOT NULL STREET_ADDRESS VARCHAR2(150) CITY_ADDRESS VARCHAR2(50) STATE_ADDRESS VARCHAR2(50) PROVINCE_ADDRESS VARCHAR2(50) COUNTRY_ADDRESS VARCHAR2(50) POSTAL_CODE VARCHAR2(12) CUSTOMER_PHONE VARCHAR2(20) A sale is being advertised to the customers in France. Which WHERE clause identifies WHERE lower(country_address) = 'france' WHERE lower(country_address) = "france" WHERE lower(country_address) IS 'france' None 1 0 0 0
+customers that are located in France? SQL can be used to: Modify the database create database structures only. query database data only. All the listed operation can be done by SQL. 0 0 0 1 Examine the structure of the EMPLOYEES table: EMPLOYEE_ID NUMBER Primary Key FIRST_NAME VARCHAR2(25) LAST_NAME VARCHAR2(25) HIRE_DATE DATE Which UPDATE statement is valid? UPDATE employees SET first_name = 'John', SET last_name ='Smith' WHERE employee_id = 180; UPDATE employees SET first_name = 'John', last_name ='Smith' WHERE employee_id = 180; UPDATE employees SET first_name = 'John' AND last_name ='Smith' WHERE employee_id = 180; UPDATE employees SET first_name = 'John' SET last_name ='Smith' WHERE employee_id = 180; 0 1 0 0 The SQL WHERE clause: limits the column data that are returned. limits the row data are returned. limits the rows & coloumns returned NONE 0 1 0 0 ON UPDATE CASCADE ensures which of the following? Normalization data Integrity Materialized View None 0 1 0 0 Which of the following is valid SQL for an Index? CREATE INDEX ID; CHANGE INDEX ID; ADD INDEX ID; REMOVE INDEX ID; 1 0 0 0
+Question Text Choice1 Choice2 Choice3 Choice4 Choice5 Grade1 Grade2 Grade3 Grade4 Grade5
+Which of the given options are TRUE about 'varchar' datatype? Holds a variable length string (can contain letters, numbers, and special characters). Its maximum size is specified in parenthesis. All listed options None of the listed options 0 0 1 0 Which of the given options are TRUE about TCL? TCL contains the commands which are required for Transaction Management. TCL consists of 2 commands: COMMIT and ROLLBACK All listed options None of the listed options 0 0 1 0 Which of the given options are TRUE regarding 'Constraints'? Constraints are used to limit the type of data that can go into a table The NOT NULL constraint enforces a column to NOT accept NULL values. All listed options None of the listed options 0 0 1 0 Statement 1: 'AND' Returns TRUE if both component conditions are TRUE. Returns FALSE if either is FALSE; otherwise returns UNKNOWN. Statement 2: 'EXISTS' returns FALSE if a sub-query returns at least one row. Which of the above statements are TRUE? Only statement 1 Only statement 2 Both statement 1 and statement 2 None of the listed options 1 0 0 0 Statement 1: 'UNION' returns all distinct rows selected by either query. Statement 2: 'INTERSECT 'returns all distinct rows selected by both queries. Which of the above statements is TRUE? Only statement 1 Only statement 2 Both statement 1 and statement 2 None of the listed options 0 0 1 0 Which operator returns all distinct rows selected by the first query but not the second? UNION MINUS INTERSECT UNION ALL 0 1 0 0
+Which of the given options is TRUE? COUNT function is used to count the number of columns in a database table. SUM function allows selecting the total for a numeric column. All listed options None of the listed options 0 1 0 0 Which of the given options return rows when there is at least one match in both tables? JOIN WHERE GROUP BY ORDER BY 1 0 0 0 Which type of join does not require each record in the two joined tables to have a matching record? Inner join Outer Join Self join Equi Join 0 1 0 0 Statement 1: Clustered index physically rearranges the data that users inserts in your tables. Statement 2: There can be 2000 non-clustered index per table. Which of the above statement are TRUE? Only statement 1 Only statement 2 Both statement 1 and statement 2 None of the listed options 1 0 0 0
+What is the standard way to separate each SQL statement in database systems that allow more than one SQL statement to be executed in the same call to the server.
+Semicolon
+Colon
+Comma All listed options
+1
+0
+0
+0
+DDL part of SQL does which of the following?
+allows database tables to be created or deleted
+Defines indexes (keys)
+Specifies links between tables, and imposes constraints between tables All listed options
+0
+0
+0
+1
+ANSI is the official U.S. representative to the International Organization for Standardization (ISO). State whether the above statement is true or false
+TRUE
+FALSE
+1
+0
+Which statement is used to query the database and retrieve selected data that match the criteria that you
+INSERT
+RETRIEVE
+SELECT
+UPDATE
+0
+0
+1
+0
+specify?
+Statement1: Data types specify what the type of data can be for that particular column Statement 2: Varchar is a datatype in SQL Which of the above statements is TRUE?
+Only statement 1
+Only statement 2
+Both statement 1 and statement 2 None of the listed options
+0
+0
+1
+0
+Statement 1: The DELETE statement is used to delete columns in a table. Statement 2: The UPDATE statement is used to update existing records in a table. Which of the above statements are TRUE?
+Only statement 1
+Only statement 2
+Both statement 1 and statement 2 None of the listed options
+0
+1
+0
+0
+Statement 1: DCL contains the commands which protect data from unauthorized access. Statement 2: DCL consists of 2 commands: COMMIT and ROLLBACK Which of the above statements are TRUE?
+Only statement 1
+Only statement 2
+Both statement 1 and statement 2 None of the listed options
+1
+0
+0
+0
+Statement 1: GRANT, DENY and REVOKE are DCL commands Statement 2: CREATE, ALTER, DROP, TRUNCATE are DDL commands
+Only statement 1
+Only statement 2
+Both statement 1 and statement 2 None of the listed options
+0
+0
+1
+0
+Which of the given options are TRUE regarding 'Constraints'?
+The UNIQUE constraint uniquely identifies each record in a database table.
+A PRIMARY KEY constraint does not automatically have a UNIQUE constraint defined on it. All listed options None of the listed options
+1
+0
+0
+0
+You can have many UNIQUE constraints per table, but only one PRIMARY KEY constraint per table. State whether the above statement is TRUE or FALSE.
+TRUE
+FALSE
+1
+0
+Statement 1:Each table can have only ONE primary key per table Statement 2: A primary key column can contain NULL values Which of the above statements are TRUE?
+Only statement 1
+Only statement 2
+Both statement 1 and statement 2 None of the listed options
+1
+0
+0
+0
+Statement 1: A FOREIGN KEY in one table points to a PRIMARY KEY in another table. Statement 2: If you define a CHECK constraint on a single column it allows only certain values for this column. Which of the given options are TRUE?
+Only statement 1
+Only statement 2
+Both statement 1 and statement 2 None of the listed options
+0
+0
+1
+0
+Statement 1: Operators are used to specify conditions in an SQL statement and to serve as conjunctions for multiple conditions in a statement. Statement 2: Arithmetic operators manipulate numeric operands. Which of the above statements are TRUE?
+Only statement 1
+Only statement 2
+Both statement 1 and statement 2 None of the listed options
+0
+0
+1
+0
+Statement 1: If you want to select rows that satisfy at least one of the given conditions, you can use the logical operator, AND. Statement 2: <> Checks if the value of two operands are equal or not, if values are not equal
+Only statement 1
+Only statement 2
+Both statement 1 and statement 2 None of the listed options
+0
+1
+0
+0
+then condition becomes true. Which of the above statements are TRUE?
+Statement 1: SQL aggregate functions return a single value, calculated from values in a column. Statement 2: AVG() returns the average value Which of the above statements is TRUE?
+Only statement 1
+Only statement 2
+Both statement 1 and statement 2 None of the listed options
+0
+0
+1
+0
+LIKE clause is used to compare a value to similar values using logical operators. State whether the above statement is TRUE or FALSE.
+TRUE
+FALSE
+0
+1
+The GROUP BY clause follows the WHERE clause in a SELECT statement and precedes the ORDER BY clause. State whether the above statement is TRUE or FALSE.
+TRUE
+FALSE
+1
+0
+The HAVING clause places conditions on the selected columns, whereas the WHERE clause places conditions on groups created by the GROUP BY clause. State whether the above statement is TRUE or FALSE.
+TRUE
+FALSE
+0
+1
+Which of the given options is TRUE about LIKE clause?
+The percent sign represents zero, one, or multiple characters, when used with LIKE clause.
+The underscore represents a single number or character.
+Both statement 1 and statement 2 None of the listed options
+0
+0
+1
+0
+GROUP BY clause is used in collaboration with the SELECT statement to arrange identical data into groups. State whether the above statement is TRUE or FALSE.
+TRUE
+FALSE
+1
+0
+Statement 1: Numeric functions accept numeric input and return string values. Statement 2: Single-row functions return a single result row for every row of a queried table or view. Which of the above statements are TRUE?
+Only statement 1
+Only statement 2
+All of the above None of the listed options
+0
+1
+0
+0
+The percent sign and the underscore cannot be used in combinations, when using LIKE clause. State whether the above statement is TRUE or FALSE.
+TRUE
+FALSE
+0
+1
+The ROUND() function is used to round a numeric field to the nearest hundred. State whether the above statement is TRUE or FALSE.
+TRUE
+FALSE
+0
+1
+SQL joins are used to query data from two or more tables, based on ___________________.
+a relationship between certain columns in tables
+a relationship between certain rows in tables. All listed options None of the listed options
+1
+0
+0
+0
+Which of the given options return all rows from the left table, even if there are no matches in the right table?
+JOIN
+LEFT JOIN
+RIGHT JOIN
+CROSS JOIN
+0
+1
+0
+0
+A Self Join is a type of sql join which is used to join a table to itself, particularly when the table has a FOREIGN KEY that references its own PRIMARY KEY. State whether the above statement is TRUE or FALSE.
+TRUE
+FALSE
+1
+0
+Statement 1: CROSS JOIN returns the Cartesian product of the sets of rows from the joined tables. Statement 2: You can have multiple conditions for the ON clause just like you can in a WHERE clause. Which of the above statements is TRUE?
+Only statement 1
+Only statement 2
+Both statement 1 and statement 2 None of the listed options
+0
+0
+1
+0
+Statement 1: In case of Natural Joins, common columns are columns that have the same number of rows in both tables. Statement 2: JOIN ON syntax is much more readable and maintainable than the natural join syntax. Which of the above statements are TRUE?
+Only statement 1
+Only statement 2
+Both statement 1 and statement 2 None of the listed options
+0
+1
+0
+0
+Statement 1: The FULL OUTER JOIN will return all rows, as long as there's matching data in one of the tables. Statement 2: FULL OUTER JOIN includes all the rows from both the participating tables and does not select either the LEFT or RIGHT table from the JOIN key word. Which of the above statements are TRUE?
+Only statement 1
+Only statement 2
+Both statement 1 and statement 2 None of the listed options
+0
+0
+1
+0
+Which type of join combines the results of both left and right outer joins?
+Inner join
+Cross Join
+Full Outer Join
+All of the above
+0
+0
+1
+0
+You cannot add a subquery to a SELECT clause as a column expression in the SELECT list. State whether the
+TRUE
+FALSE
+0
+1
+above statement is TRUE or FALSE.
+Statement 1: A view can be accessed with the use of SQL SELECT statement like a table. Statement 2: A view can be made up by selecting data from more than one tables. Which of the above statements are TRUE?
+Only statement 1
+Only statement 2
+Both statement 1 and statement 2 None of the listed options
+0
+0
+1
+0
+View can be removed using which command?
+DELETE VIEW
+DROP VIEW
+REMOVE VIEW All listed options
+0
+1
+0
+0
+Statement 1: The SQL subquery is a SELECT query that is embedded in the main SELECT statement. Statement 2: A subquery cannot return more than one rows Which of the above statements is TRUE?
+Only statement 1
+Only statement 2
+Both statement 1 and statement 2 None of the listed options
+1
+0
+0
+0
+Question Text Choice1 Choice2 Choice3 Choice4 Choice5 Grade1 Grade2 Grade3 Grade4 Grade5
+Able and Bill are two friends. Able is carrying silver and bill is carrying gold. They prepare a mixture by mixing metals in proportions 7:2 and 7:11 respectively. If equal quantities of the two metals are melted to form an alloy , the proportion of silver and gold in the alloy will be?
+5:07:00 AM
+5:08:00 AM
+7:05:00 AM
+9:04:00 AM
+0
+0
+1
+0
+Spring provides the following mechanisms of instantiating a bean
+using the constructors
+using static factory methods
+using a factory bean
+using BeanFactory
+using ApplicationContext
+1
+1
+1
+0
+0
+Global action is not going to stop climate change. The world needs to look harder at how to live with it.
+http://www.youtube.com/watch?v=qn7Z6P22Hfw&t=30s
+The video showcases only 1 online assessment company.
+The video showcases 3 online assessment companies.
+0
+1
+The author wants men to give women the right to vote because women
+have been subjected to only domestic chores till date.
+need liberation from the discrimination of the weaker gender.
+are capable of maintaining peace and order
+are better rulers.
+None of the above
+0
+0
+1
+0
+0
+#FTB# interface, #FTB# annotation and #FTB# bean attribute can be used to specify destruction lifecycle callback on a bean.
+DisposableBean, PostDestry, destry-method
+1
+1) MySQL runs on which operating systems? a) Linux and Mac OS-X only b) Any operating system at all c) Unix, Linux, Windows and others d) Unix and Linux only 2) To remove duplicate rows from the result set of a SELECT use the following keyword: a) NO DUPLICATE b) UNIQUE c) DISTINCT d) None of the above 3) Which of the following can add a row to a table? a) Add
+b) Insert c) Update d) Alter 4) To use MySQL on your computer, you'll need? a) FTP and Telnet b) Some sort of client program to access the databases c) A Browser d) Perl, PHP or Java 5) Which SQL statement is used to insert a new data in a database? a) INSERT INTO b) UPDATE c) ADD d) INSERT NEW 6) In a LIKE clause, you can could ask for any value ending in "qpt" by writing a) LIKE %qpt b) LIKE *ton c) LIKE ton$ d) LIKE ^.*ton$ 7) A NULL value is treated as a blank or 0. a) True b) Fasle c) None of the above 8) MySQL is a) A Programming language b) A Programming language c) A technique for writing reliable programs d) A Relational Database Management System 9) In a LIKE clause, you can ask for any 6 letter value by writing? a) LIKE ?????? b) LIKE .{6} Answer 5: LIKE ^.{6}$ c) LIKE ...... (that's six dots) d) LIKE ______ (that's six underscore characters) 10) The result of a SELECT statement can contain duplicate rows. a) False b) True c) None of the above 11) Which function used to get the current time in mysql? a) getTime()
+b) Time() c) NOW() 12) A table may be joined to itself. a) True b) false c) None of the above 13) Which of the following is not a valid aggregate function? a) COUNT b) MIN c) MAX d) COMPUTE 14) mysql_pconnect() is used to make a persistent connection to the database which means a SQL link that do not close when the execution of your script ends. a) True b) False 15) What SQL clause is used to restrict the rows returned by a query? a) AND b) WHERE c) HAVING d) FROM 16) Which of the following is used to delete an entire MYSQL database? a) mysql_drop_database b) mysql_drop_entiredb c) mysql_drop_db d) mysql_drop_dbase 17) MySQL supports the complete SQL99 standard a) false b) true 18) Primary Key does allow the Null Values. where as in Unique key doesn't accept the Null values. Question: True or False ? a) False b) True 19)How much character are allowed to create database name? a) 55 b) 72 c) 64 d) 40
+20) Which of the following commands should be used to create a database named “student”? a) CREATE ?I student b) CREATE DATABASE student c) DATABASE /student d) DATABSE student 21) Which one will delete the table data as well as table structure? a) TRUNCATE b) DROP 22) The USE command? a) Is used to load code from another file b) Has been deprecated and should be avoided for security reasons c) Is a pseudonym for the SELECT command d) Should be used to choose the database you want to use once you've connected to MySQL 23) Given an employees table as follows: emp_id emp_name 1 Brush 2 Jerrin what value will be return by below query ? Select count(*) from employees a) 3 b) 2 c) 1 d) none of the above 24) The main MySQL program that does all the data handling is called? a) mysql.exe b) mysql c) mysqld d) httpd 25) A SELECT command without a WHERE clause returns? a) All the records from a table that match the previous WHERE clause b) All the records from a table, or information about all the records c) SELECT is invalid without a WHERE clause d) Nothing 26) MySQL Access security is controlled through? a) The ID that the user logged into the server through, and priveliges set up for that account. b) MySQL login accounts, and priveliges set for each account c) The normal login security is sufficient for MySQL, and it does not have any extra controls of its own. d) A table of valid IP addresses, and priveliges set up for each IP address
+27) In a SELECT with a GROUP BY clause, a WHERE clause, and a HAVING clause, the WHERE conditions are applied before the HAVING conditions. a) True b) Fasle c) Either True or False d) None of the above
+
+    QUESTION NO: 1
+A table is successfully created by executing the following statement: CREATE TABLE numbers (
+double_number double, decimal_number decimal(2,1)
+)
+One row is successfully inserted into the numbers table. At this point, the table contains the following data:
++---------------+----------------+
+| double_number | decimal_number |
++---------------+----------------+
+| 1.5 | 2.5 |
++---------------+----------------+
+The row is updated by executing the following statement: UPDATE numbers
+SET double_number = double_number + 0.25, decimal_number = decimal_number + 0.01
+Which values are now stored in the double_number and decimal_number columns of the updated row? Select the best response.
+A. 1.8 and 2.5
+B. 1.75 and 2.5
+C. 1.8 and 2.51
+D. 1.75 and 2.51
+Answer: B
+
+QUESTION NO: 2
+Which of the following statements can be used to list all databases that are accessible to the current user? Select the best response.
+A. LIST DATABASES
+B. SHOW DATABASES
+C. DISPLAY DATABASES
+D. VIEW DATABASES
+Answer: B
+
+QUESTION NO: 3
+Which of the following statements will discard the existing database called world? Select the best response.
+A. DELETE DATABASE world
+B. DROP DATABASE world
+C. REMOVE DATABASE world
+D. TRUNCATE DATABASE world
+Answer: B
+
+QUESTION NO: 4
+Which statement can be used to list all columns in the City table? Select the best response.
+A. DISPLAY COLUMNS FROM City
+B. SHOW COLUMNS FROM City C. SHOW COLUMNS LIKE 'City' D. SHOW City COLUMNS
+Answer: B
+
+QUESTION NO: 5
+The default database contains a table called City. Which of the following statements may be executed to obtain a statement that could be used to (re-)create the City table? Select the best response.
+A. DESCRIBE City
+B. DESCRIBE TABLE City
+C. SHOW TABLE City
+D. SHOW CREATE TABLE City
+Answer: D
+
+QUESTION NO: 6
+A MySQL table has ... Select the best response.
+A. zero or more columns, and zero or more rows. B. zero or more columns, and one or more rows. C. one or more columns, and zero or more rows. D. one or more columns, and one or more rows.
+Answer: C
+
+QUESTION NO: 7
+Which part of a SELECT statement specifies the tables from which data is to be retrieved? Select the best response.
+A. The SELECT list. B. The FROM clause. C. The WHERE clause. D. The LIMIT clause.
+Answer: B
+
+QUESTION NO: 8
+Which of the following statements best describes the purpose of the SQL WHERE clause? In SQL statements, the WHERE clause specifies ...
+Select the best response.
+A. the tables from which data is to be retrieved.
+B. a condition to filter for only specific rows.
+C. a condition to filter for only specific groups defined by a GROUP BY clause.
+D. a number to limit the number of rows that is operated upon by the statement.
+Answer: B
+
+QUESTION NO: 9
+The table Country contains the following rows:
++--------------------------+------------+
+| Name | Population |
++--------------------------+------------+
+| Nauru | 12000 |
+| Turks and Caicos Islands | 17000 |
+| Tuvalu | 12000 |
+| Wallis and Futuna | 15000 |
++--------------------------+------------+
+Which of the following statements will return all rows in the table, sorted by the value in the
+Population column? Select the best response.
+A. SELECT Name, Population ASC FROM Country
+B. SELECT Name, ORDER BY Population
+FROM Country
+C. SELECT Name, Population
+FROM Country
+GROUP BY Population ASC D. SELECT Name, Population FROM CountryORDER BY Population
+Answer: D
+
+QUESTION NO: 10
+In the context of database transactions, the atomicity property guarantees that... Select the best response.
+A. during a transaction, rows are processed one at a time.
+B. all statements that are executed inside a transaction are immediately committed.
+C. all statements that are executed inside a transaction are committed or rolled back as one unit.
+D. other transactions cannot see the changes made in other ongoing uncommitted transactions.
+Answer: C
+
+QUESTION NO: 11
+The following output describes the table City:
++-------------+----------+------+-----+---------+----------------+
+| Field | Type | Null | Key | Default | Extra |
++-------------+----------+------+-----+---------+----------------+
+| CountryCode | char(3) | NO | PRI | | |
+| CityName | char(35) | NO | PRI | | |
++-------------+----------+------+-----+---------+----------------+ The following output describes the table Country:
++----------------+-------------+------+-----+---------+-------+
+| Field | Type | Null | Key | Default | Extra |
++----------------+-------------+------+-----+---------+-------+
+| CountryCode | char(3) | NO | PRI | | |
+| CountryName | char(52) | NO | | | |
+| Continent | varchar(10) | YES | | NULL | |
++----------------+-------------+------+-----+---------+-------+
+The tables are related through the CountryCode column.
+You need to retrieve all cities and list each CityName with the CountryName of only the corresponding country. Is this possible using the following query?
+SELECT CityName,CountryName
+FROM Country
+INNER JOIN City
+Select the best response.
+A. Yes.
+B. No, you can't do that in one statement.
+C. No, the tables are listed in the wrong order.
+D. No, the statement needs a condition to match related rows.
+Answer: D
+
+QUESTION NO: 12
+Is it possible to save the result of a SELECT statement into a file using an SQL statement? Select the best response.
+A. No, not with SQL alone.
+B. Yes, by using the FILE() function.
+C. Yes, by using the INTO OUTFILE clause.
+D. Yes, by using the LOAD DATA INFILE clause.
+Answer: C
+
+QUESTION NO: 13
+The Country table exists in the default database. In the same database, you need to create a new table called Country_Copy that is to contain the same columns as the Country table, as well as all
+of the data in the Country table. Which of the following statements can be used to create the Country_Copy table? Select the best response.
+A. CREATE TABLE Country_Copy SELECT * FROM Country
+B. INSERT INTO Country_Copy SELECT * FROM Country
+C. CREATE TABLE Country_Copy LIKE Country
+D. COPY TABLE Country TO Country_Copy
+Answer: A
+
+QUESTION NO: 14
+The following output describes the table Country:
++------------+----------+------+-----+---------+-------+
+| Field | Type | Null | Key | Default | Extra |
++------------+----------+------+-----+---------+-------+
+| Code | char(3) | NO | PRI | | |
+| Name | char(53) | NO | | | |
+| Population | int(11) | YES | | NULL | |
++------------+----------+------+-----+---------+-------+
+You want to discard the rows in the Country table for which the value in the Population column is less than 5000 (and retain any other rows). Which of the following statements can be used to do that? Select the best response.
+A. DROP Country WHERE Population < 5000
+B. DROP FROM Country WHERE Population < 5000
+C. DELETE FROM Country WHERE Population < 5000
+D. DELETE SELECT * FROM Country WHERE Population < 5000
+Answer: C
+
+QUESTION NO: 15
+The table Product contains exactly one row:
++-------+-------+----------+
+| Name | Price | Discount |
++-------+-------+----------+
+| bread | 1.00 | NULL |
++-------+-------+----------+
+Which of the options best matches the result returned by the following query: SELECT Price - Price * Discount
+FROM Product
+Select the best response.
+A. +--------------------------+
+| Price - Price * Discount |
++--------------------------+
+| NULL |
++--------------------------+
+B. +--------------------------+
+| Price - Price * Discount |
++--------------------------+
+| 0 |
++--------------------------+
+C. +--------------------------+
+| Price - Price * Discount |
++--------------------------+
+| 0.00 |
++--------------------------+
+D. +--------------------------+
+| Price - Price * Discount |
++--------------------------+
+| 1.00 |
++--------------------------+
+Answer: A
+
+QUESTION NO: 16
+Which of the following statements best describes the meaning of NULL? Select the best response.
+A. NULL denotes an empty set. It is used to indicate that a query does not return any rows.
+B. NULL denotes the default value for a data type or column.
+C. NULL denotes a missing or unknown value.
+D. In a string context, NULL is exactly the same as '' - the empty string; in a numerical context, NULL is exactly the same as 0 - zero.
+Answer: C
+
+QUESTION NO: 17
+You need to create a view called CountryDensity based on the following query: SELECT Code, Name, Population / SurfaceArea As Density
+FROM Country
+Which of the following statements will create this view? Select the best response.
+A. INSERT
+INTO CountryDensity
+SELECT Code, Name, Population / SurfaceArea As Density
+FROM Country
+B. CREATE TABLE CountryDensity
+AS
+SELECT Code, Name, Population / SurfaceArea As Density
+FROM Country
+C. CREATE VIEW CountryDensity
+AS
+SELECT Code, Name, Population / SurfaceArea As Density
+FROM Country
+D. CREATE CountryDensity
+AS
+SELECT Code, Name, Population / SurfaceArea As Density
+FROM Country
+Answer: C
+
+QUESTION NO: 18
+Assuming that the table Country exists, which of the following statements can be used to discard the data and structure of the Country table? Select the best response.
+A. TRUNCATE TABLE Country
+B. DELETE TABLE Country C. REMOVE TABLE Country D. DROP TABLE Country
+Answer: D
+
+QUESTION NO: 19
+What is the effect of the ROLLBACK statement? Select the best response.
+A. Issuing a ROLLBACK statement will undo all changes on transactional tables performed since the beginning of the session.
+B. Issuing a ROLLBACK statement will undo all changes on transactional tables performed since the beginning of the transaction.
+C. Issuing a ROLLBACK statement will undo all changes made by the previous statement.
+D. Issuing a ROLLBACK statement will undo the effect of the previous COMMIT statement.
+Answer: B
+
+QUESTION NO: 20
+You need to add a char(35) column called LocalName to the existing table City. Which of the following statements may be used to achieve this? Select the best response.
+A. CREATE COLUMN LocalName char(35) FOR City B. INSERT INTO City COLUMNS LocalName char(35) C. ALTER TABLE City INSERT LocalName char(35)
+D. ALTER TABLE City ADD LocalName char(35)
+Answer: D
+
+QUESTION NO: 21
+Which of the following statements can be used to remove the SurfaceArea column from the
+Country table? Select the best response.
+A. DELETE SurfaceArea FROM Country
+B. DROP SurfaceArea FROM Country
+C. ALTER TABLE Country DROP SurfaceArea
+D. ALTER TABLE Country DELETE SurfaceArea
+Answer: C
+
+QUESTION NO: 22
+LOAD DATA INFILE ... Select the best response.
+A. is a statement to load data from a text file into a table.
+B. is a statement that allows one to recreate an entire database from a text file.
+C. is an SQL statement for loading data into a file.
+D. loads an SQL script into the mysql command line client.
+Answer: A
+
+QUESTION NO: 23
+The following output describes the table Country:
++----------------+-------------+------+-----+---------+-------+
+| Field | Type | Null | Key | Default | Extra |
++----------------+-------------+------+-----+---------+-------+
+| Code | char(3) | | PRI | | |
+| Name | char(52) | | | | |
+| Population | int(11) | | | 0 | |
+| LocalName | char(45) | | | | |
+| Capital | int(11) | YES | | NULL | |
++----------------+-------------+------+-----+---------+-------+
+5 rows in set (0.00 sec)
+The following output describes the table City:
++------------+----------+------+-----+---------+----------------+
+| Field | Type | Null | Key | Default | Extra |
++------------+----------+------+-----+---------+----------------+
+| Id | int(11) | | PRI | NULL | auto_increment |
+| Name | char(35) | | | | |
+| Country | char(3) | | | | |
++------------+----------+------+-----+---------+----------------+
+3 rows in set (0.00 sec)
+The following SQL statements are all syntactically correct, yet one of them will result in an error when executed. Which one? Select the best response.
+A. SELECT Name, Name
+FROM Country INNER JOIN City ON Capital = Id
+B. SELECT Country, Country
+FROM Country INNER JOIN City ON Capital = Id
+C. SELECT Country, Id
+FROM Country INNER JOIN City ON Capital = Id
+D. SELECT Country.Name, Id
+FROM Country
+INNER JOIN City
+ON Capital = Id
+Answer: A
+
+QUESTION NO: 24
+After starting a transaction and executing a statement, you accidentally execute ROLLBACK
+instead of COMMIT. Is there any way to commit the entered statement? Select the best response.
+A. You should execute COMMIT immediately.
+B. You should execute CANCEL ROLLBACK and then COMMIT.
+C. You should execute REPEAT TRANSACTION and then COMMIT.
+D. There is no way to do this. You have to repeat your transaction.
+Answer: D
+
+QUESTION NO: 25
+The Cities table contains the following rows:
++---------+-----------+
+| Country | City |
++---------+-----------+
+| USA | Seattle |
+| Germany | Berlin |
+| USA | New York |
+| Sweden | Stockholm |
++---------+-----------+
+What will be the result of executing the following query? SELECT Country, City
+FROM Cities
+ORDER BY Country, City
+Select the best response.
+A. +---------+-----------+
+| Country | City |
++---------+-----------+
+| USA | Seattle |
+| Germany | Berlin |
+| Sweden | Stockholm |
+| USA | New York |
++---------+-----------+
+B. +---------+-----------+
+| Country | City |
++---------+-----------+
+| Germany | Berlin |
+| USA | New York |
+| USA | Seattle |
+| Sweden | Stockholm |
++---------+-----------+
+C. +---------+-----------+
+| Country | City |
++---------+-----------+
+| Germany | Berlin |
+| Sweden | Stockholm |
+| USA | New York |
+| USA | Seattle |
++---------+-----------+
+D. +---------+-----------+
+| Country | City |
++---------+-----------+
+| Germany | Berlin |
+| Sweden | Stockholm |
+| USA | Seattle |
+| USA | New York |
++---------+-----------+
+Answer: C
+
+QUESTION NO: 26
+Assume that the database yellow exists and that no database contains a table called circle. You execute the following statement:
+CREATE TABLE yellow.circle(x INT, y INT, r INT)
+Which of the following options best describes the effect of executing this CREATE TABLE
+statement? Select the best response.
+A. The table circle is created in the default database.
+B. The table yellow.circle is created in the default database.
+C. The table circle is created in the database yellow.
+D. Executing the statement fails because yellow.circle is not a valid table name.
+Answer: C
+
+QUESTION NO: 27
+Which result will be returned after executing the following statement? SELECT NULL = NULL
+Select the best response.
+A. +-------------+
+| NULL = NULL |
++-------------+
+| 0 |
++-------------+
+B. +-------------+
+| NULL = NULL |
++-------------+
+| 1 |
++-------------+
+C. +-------------+
+| NULL = NULL |
++-------------+
+| TRUE |
++-------------+
+D. +-------------+
+| NULL = NULL |
++-------------+
+| NULL |
++-------------+
+Answer: D
+
+QUESTION NO: 28
+The friends table has the following table structure and data:
+mysql> SELECT * FROM Friends;
++------+-------+
+| Id | Name |
++------+-------+
+| 1 | Tom |
+| 2 | Matt |
+| 3 | David |
+| 4 | Monty |
++------+-------+
+Which query could be used to retrieve a result similar to the one shown here:
++-------+
+| Name |
++-------+
+| Matt |
+| Monty |
++-------+
+Select the best response.
+A. SELECT Name
+FROM Friends
+WHERE Id IN ('Matt','Monty')
+B. SELECT Name
+FROM Friends
+WHERE Name = 'Matt' AND Name = 'Monty'
+C. SELECT Name
+FROM Friends
+WHERE Name = 'Matt'
+OR Name = 'Monty'
+D. SELECT Name
+FROM Friends matt, Friends monty
+WHERE matt.name = 'Matt' AND monty.name = 'Monty'
+Answer: C
+
+QUESTION NO: 29
+Two rows are inserted into the empty table CountryLanguage:
++-------------+-------------+
+| CountryCode | Language |
++-------------+-------------+
+| NLD | Papiamento |
+| NLD | Sranantonga |
++-------------+-------------+
+Is it possible that a single statement was used to insert these rows? Select the best response.
+A. Yes, using this statement:
+INSERT INTO CountryLanguage (CountryCode,Language) VALUES ('NLD','Papiamento'),
+('NLD','Sranantonga')
+B. Yes, using this statement:
+INSERT INTO CountryLanguage (CountryCode,Language) VALUES ('NLD','Papiamento')
+AND ('NLD','Sranantonga')
+C. Yes, using this statement:
+INSERT INTO CountryLanguage (CountryCode,Language) VALUES ('NLD','Papiamento')
+VALUES ('NLD','Sranantonga')
+D. No, you need at least two statements, like this:
+INSERT INTO CountryLanguage (CountryCode,Language) VALUES ('NLD','Papiamento')
+and then
+INSERT INTO CountryLanguage (CountryCode,Language)
+VALUES ('NLD','Sranantonga')
+Answer: A
+
+QUESTION NO: 30
+How many PRIMARY KEYs can be defined for a given table? Select the best response.
+A. At most one PRIMARY KEY may be defined. B. Exactly one PRIMARY KEY must be defined. C. At least one PRIMARY KEY must be defined.
+D. For each column, at most one PRIMARY KEY may be defined.
+Answer: A
+
+QUESTION NO: 31
+The following output describes the table City:
++-------------+------------------+------+-----+---------+-------+
+| Field | Type | Null | Key | Default | Extra |
++-------------+------------------+------+-----+---------+-------+
+| Name | char(35) | NO | PRI | | |
+| Population | int(10) unsigned | YES | | NULL | |
+| Country | char(35) | NO | PRI | | |
++-------------+------------------+------+-----+---------+-------+
+Which of the following statements can be used to add a row for the city called 'Urk' in the country called 'The Netherlands'? Select the best response.
+A. INSERT INTO City('Urk',,'The Netherlands')
+B. INSERT INTO City VALUES ('Urk','The Netherlands')
+C. INSERT INTO City VALUES ('Urk',,'The Netherlands')
+D. INSERT INTO City(Name,Country) VALUES ('Urk','The Netherlands')
+Answer: D
+
+QUESTION NO: 32
+The following output describes the table Country:
++----------------+------------+------+-----+---------+-------+
+| Field | Type | Null | Key | Default | Extra |
++----------------+------------+------+-----+---------+-------+
+| Code | char(3) | | PRI | | |
+| Name | char(52) | | | | |
+| Capital | int(11) | | | | |
++----------------+------------+------+-----+---------+-------+ The following output describes the table City:
++------------+----------+------+-----+---------+----------------+
+| Field | Type | Null | Key | Default | Extra |
++------------+----------+------+-----+---------+----------------+
+| Id | int(11) | | PRI | NULL | auto_increment |
+| Name | char(35) | | | | |
+| Population | int(11) | | | 0 | |
++------------+----------+------+-----+---------+----------------+
+The tables are related: Capital in Country references Id in City. You need to get a list of countries that contains the name of the country as well as the name of the country's capital. Which of the following statements can be used to do that? Select the best response.
+A. SELECT Country.Name, Capital
+FROM Country
+INNER JOIN City
+ON Capital = City.Id
+B. SELECT Country.Name, City.Name
+FROM Country
+INNER JOIN City
+C. SELECT Country.Name, City.Name
+FROM Country INNER JOIN City ON Capital = City.Id
+D. SELECT Country.Name, Capital.Name
+FROM Country
+Answer: C
+
+QUESTION NO: 33
+Given the following tables: mysql> DESCRIBE Country;
++----------------+------------+------+-----+---------+-------+
+| Field | Type | Null | Key | Default | Extra |
++----------------+------------+------+-----+---------+-------+
+| Code | char(3) | | PRI | | |
+| Name | char(52) | | | | |
+| Capital | int(11) | YES | | NULL | |
++----------------+------------+------+-----+---------+-------+
+mysql> DESCRIBE CountryLanguage;
++------------+---------------+------+-----+---------+-------+
+| Field | Type | Null | Key | Default | Extra |
++------------+---------------+------+-----+---------+-------+
+| Country | char(3) | | PRI | | |
+| Language | char(30) | | PRI | | |
+| Percentage | float(3,1) | | | 0.0 | |
++------------+---------------+------+-----+---------+-------+
+The tables are related through Code in Country and Country in CountryLanguage. You want to obtain a list with the names of only those countries where English is spoken. Which of the
+following queries can be used to obtain such a list? Select the best response.
+A. SELECT Country.Name
+FROM Country
+INNER JOIN CountryLanguage WHERE Language = 'English' B. SELECT Country.Name FROM Country
+INNER JOIN CountryLanguage
+ON Country.Code = CountryLanguage.Country
+WHERE Language = 'English'
+C. SELECT Country
+FROM Country
+INNER JOIN CountryLanguage
+ON Country.Code = CountryLanguage.Country
+WHERE Language = 'English'
+D. SELECT Country
+FROM Language
+WHERE CountryLanguage = 'English'
+Answer: B
+
+QUESTION NO: 34
+The following output describes the table City:
++------------+----------+------+-----+---------+-------+
+| Field | Type | Null | Key | Default | Extra |
++------------+----------+------+-----+---------+-------+
+| id | int(11) | | | 0 | |
+| Name | char(35) | YES | | NULL | |
+| Population | int(10) | | | 0 | |
++------------+----------+------+-----+---------+-------+
+Which of the following statements will discard all data in the table without discarding the table structure? Select the best response.
+A. DELETE City
+B. DELETE FROM City
+C. DROP City
+D. DROP TABLE City
+Answer: B
+
+QUESTION NO: 35
+The table keywords contains the following rows:
++------------+---------+
+| article_id | keyword |
++------------+---------+
+| 1 | Linux |
+| 1 | MySQL |
+| 1 | Windows |
+| 2 | Linux |
+| 2 | MySQL |
+| 3 | Linux |
+| 3 | Windows |
+| 4 | MySQL |
++------------+---------+
+8 rows in set (0.00 sec)
+You want to retrieve all article_id values for those articles that are associated with the keyword
+'MySQL' as well as the keyword 'Linux'. Which of the following statements can be used to achieve that? Select the best response.
+A. SELECT DISTINCT article_id
+FROM keywords
+WHERE keyword = 'MySQL' OR keyword = 'Linux'
+B. SELECT article_id
+FROM keywords
+WHERE keyword = 'MySQL'
+AND keyword = 'Linux' C. SELECT k2.article_id FROM keywords AS k1
+INNER JOIN keywords AS k2
+ON k1.article_id = k2.article_id WHERE k1.keyword = 'MySQL' AND k2.keyword = 'Linux'
+D. You cannot do it in a single statement.
+Answer: C
+
+QUESTION NO: 36
+When executing DELETE FROM articles LIMIT 10 Which rows will be deleted? Select the best response.
+A. All the rows in the table.
+B. The first 10 rows from the table sorted by primary key. C. The last 10 rows from the table sorted by primary key. D. The first 10 rows found by the server.
+Answer: D
+
+QUESTION NO: 37
+In the context of MySQL client/server architecture, the role of the client program is to ... Select the best response.
+A. initiate client/server communication.
+B. send requests to the server to perform data manipulation.
+C. send commands to control server behavior.
+D. all of the above.
+Answer: D
+
+QUESTION NO: 38
+In the context of MySQL client/server architecture, the role of the server program is to ... Select the best response.
+A. receive and process commands and queries.
+B. send SQL queries to client programs and receive result sets.
+C. ensure that only one client may access a piece of data at any one time.
+D. all of the above.
+Answer: A
+
+QUESTION NO: 39
+The City table is created by executing the following statement: CREATE TABLE City (
+ID int NOT NULL AUTO_INCREMENT, Name char(35) NOT NULL, CountryCode char(3) NOT NULL, District char(20),
+Population int NOT NULL, PRIMARY KEY (ID)
+)
+Which of the following statements can be used to ensure that no NULL values can be entered for the District column? Select the best response.
+A. UPDATE City SET District = NOT NULL
+B. UPDATE City MODIFY District NOT NULL
+C. ALTER TABLE City SET District NOT NULL
+D. ALTER TABLE City CHANGE District District char(20) NOT NULL
+Answer: D
+
+QUESTION NO: 40
+A database management system is ... Select the best response.
+A. a computer hardware component where data is physically stored.
+B. a particular kind of computer program that stores and retrieves data on behalf of other applications.
+C. a particular kind of computer program that allows end-users to enter SQL statements.
+D. a collection of files that stores database data.
+Answer: B
+
+QUESTION NO: 41
+A VIEW is ...
+Select the best response.
+A. a temporary table.
+B. a special type of query that combines the data from multiple tables.
+C. a particular type of table that derives its structure and content from a query.
+D. another name for the output obtained by executing a SHOW statement.
+Answer: C Explanation:
+
+QUESTION NO: 42
+The following output describes the structure of the Product table:
++-------+--------------+------+-----+---------+-------+
+| Field | Type | Null | Key | Default | Extra |
++-------+--------------+------+-----+---------+-------+
+| Name | varchar(32) | NO | | | |
+| Price | decimal(5,2) | NO | | | |
+| Size | int(11) | YES | | NULL | |
++-------+--------------+------+-----+---------+-------+
+Which of the following queries can be used to find all rows in the Product table for which the Size column contains the NULL value? Select the best response.
+A. SELECT * FROM Product WHERE Size = 0
+B. SELECT * FROM Product WHERE Size = NULL C. SELECT *
+FROM Product WHERE Size IS NULL D. SELECT *
+FROM Product
+WHERE Size IS 'NULL'
+Answer: C
+
+QUESTION NO: 43
+What is the main reason for adding indexes to tables? Select the best response.
+A. Only indexed columns may be used in expressions.
+B. Indexes enforce referential integrity.
+C. Indexes can speed up execution of queries.
+D. Indexes can speed up table maintenance tasks.
+Answer: C Explanation:
+
+QUESTION NO: 44
+The following output describes the City table:
++-------------+------------------+------+-----+---------+-------+
+| Field | Type | Null | Key | Default | Extra |
++-------------+------------------+------+-----+---------+-------+
+| Name | char(35) | NO | PRI | | |
+| CountryCode | char(3) | NO | PRI | | |
+| District | char(20) | YES | | NULL | |
++-------------+------------------+------+-----+---------+-------+
+The following statement is used to return all rows in the table: SELECT CountryCode,Name FROM City
+In what order are the rows returned? Select the best response.
+A. By CountryCode; then by Name.
+B. By Name; then by CountryCode; then by District.
+C. No guarantee can be made about the order.
+D. The rows are returned in the same order as they were added to the table
+Answer: C
+
+QUESTION NO: 45
+The following output lists the contents of the City table:
++-------------+------------+
+| Name | District |
++-------------+------------+
+| Dallas | Texas |
+| New York | New York |
+| Chicago | Illinois |
+| Los Angeles | California |
+| Houston | Texas |
++-------------+------------+
+Which result will be returned by executing the following statement? SELECT District, Count(District)
+FROM City
+GROUP BY District
+Select the best response.
+A. +------------+-----------------+
+| District | Count(District) |
++------------+-----------------+
+| California | 1 |
+| Illinois | 1 |
+| New York | 1 |
+| Texas | 1 |
++------------+-----------------+
+B. +------------+-----------------+
+| District | Count(District) |
++------------+-----------------+
+| California | 1 |
+| Illinois | 1 |
+| New York | 1 |
+| Texas | 2 |
++------------+-----------------+
+C. +------------+-----------------+
+| District | Count(District) |
++------------+-----------------+
+| California | 1 |
+| Illinois | 1 |
+| New York | 1 |
+| Texas | 1 |
+| Texas | 2 |
++------------+-----------------+
+D. +------------+-----------------+
+| District | Count(District) |
++------------+-----------------+
+| California | 1 |
+| Illinois | 1 |
+| New York | 1 |
+| Texas | 2 |
+| Texas | 2 |
++------------+-----------------+
+Answer: B
+
+QUESTION NO: 46
+Which of the following activities would imply using a join in a query? Select the best response.
+A. Aggregating data from a given table.
+B. Making particular groups of the rows in a table.
+C. Making a list of all rows from a given table followed by all rows from another table.
+D. Making a list of rows that combine data from a given table with data from another table.
+Answer: D
+
+QUESTION NO: 47
+What is the purpose of the mysqldump program? Select the best response.
+A. To migrate a non-MySQL database to a MySQL database.
+B. To export MySQL databases to a text file.
+C. To make a binary backup of a MySQL database.
+D. To convert the binary log into a human readable format.
+Answer: B
+
+QUESTION NO: 48
+What is the purpose of the mysqlimport program? Select the best response.
+A. To import log files into a MySQL database table.
+B. To import data from a binary log into a MySQL database table.
+C. To import data from a text file into a MySQL database table.
+D. To import tables from a non-MySQL database into a MySQL database.
+Answer: C
+
+QUESTION NO: 49
+What is the effect of using the keyword LOCAL with the LOAD DATA INFILE statement? Select the best response.
+A. With LOCAL, the server will request the file from the client host. Without LOCAL, the server will perform the operation using a file located on the server host.
+B. With LOCAL, the server will perform the operation using a file located on the server host. Without LOCAL, the server will request the file from the client host.
+C. The keyword LOCAL is optional. The server always performs the operation using a file located on the server host.
+D. The keyword LOCAL is optional. The server always requests the file from the client host.
+Answer: A
+
+QUESTION NO: 50
+Three UPDATE statements have been executed within one transaction. The transaction is still uncommitted when the connection between the server and the client issuing the commands is closed. What will happen to the transaction? Select the best response.
+A. All changes are committed.
+B. All changes are rolled back.
+C. If the connection was closed normally at the clients' request, the changes are committed. If the connection closed abnormally, the changes are rolled back.
+D. The changes are neither committed nor rolled back. The entire session state, including the pending changes are saved separately by the server, and the session is restored when the client reconnects.
+Answer: B
