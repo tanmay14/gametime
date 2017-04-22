@@ -1,0 +1,649 @@
+<%@page import="com.bms.bean.LoanBean"%>
+<%@page import="com.bms.dao.LoanDAO" %>
+<%@page import="java.util.*"%>
+<%@page import="java.text.*"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<%@page import="com.bms.bo.*"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" 
+
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Apply Loan</title>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href="bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/normalize.css">
+    
+    
+    <style>
+     
+      body {
+  font-family: "Open Sans", sans-serif;
+  height: 100vh;
+  background: url("http://i.imgur.com/HgflTDf.jpg") 50% fixed;
+  background-size: cover;
+}
+
+@keyframes spinner {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(359deg);
+  }
+}
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  min-height: 100%;
+  padding: 20px;
+  background: #EFEAEA
+}
+
+.login {
+  border-radius: 2px 2px 5px 5px;
+  padding: 10px 20px 20px 20px;
+  width: 90%;
+  max-width: 320px;
+  background: #ffffff;
+  position: relative;
+  padding-bottom: 80px;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3);
+}
+.login.loading button {
+  max-height: 100%;
+  padding-top: 50px;
+}
+.login.loading button .spinner {
+  opacity: 1;
+  top: 40%;
+}
+.login.ok button {
+  background-color: #8bc34a;
+}
+.login.ok button .spinner {
+  border-radius: 0;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  height: 20px;
+  animation: none;
+  transform: rotateZ(-45deg);
+}
+.login input {
+  display: block;
+  padding: 15px 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  border: 1px solid #ddd;
+  transition: border-width 0.2s ease;
+  border-radius: 2px;
+  color: #ccc;
+}
+.login input + i.fa {
+  color: #fff;
+  font-size: 1em;
+  position: absolute;
+  margin-top: -47px;
+  opacity: 0;
+  left: 0;
+  transition: all 0.1s ease-in;
+}
+.login input:focus {
+  outline: none;
+  color: #444;
+  border-color: #2196F3;
+  border-left-width: 35px;
+}
+.login input:focus + i.fa {
+  opacity: 1;
+  left: 30px;
+  transition: all 0.25s ease-out;
+}
+.login a {
+  font-size: 0.8em;
+  color: #2196F3;
+  text-decoration: none;
+}
+.login .title {
+  color: #444;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 10px 0 30px 0;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+}
+.login button {
+  width: 100%;
+  height: 100%;
+  padding: 10px 10px;
+  background: #2196F3;
+  color: #fff;
+  display: block;
+  border: none;
+  margin-top: 20px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  max-height: 60px;
+  border: 0px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0 0 2px 2px;
+  transform: rotateZ(0deg);
+  transition: all 0.1s ease-out;
+  border-bottom-width: 7px;
+}
+.login button .spinner {
+  display: block;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  border: 4px solid #ffffff;
+  border-top-color: rgba(255, 255, 255, 0.3);
+  border-radius: 100%;
+  left: 50%;
+  top: 0;
+  opacity: 0;
+  margin-left: -20px;
+  margin-top: -20px;
+  animation: spinner 0.6s infinite linear;
+  transition: top 0.3s 0.3s ease, opacity 0.3s 0.3s ease, border-radius 0.3s ease;
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2);
+}
+.login:not(.loading) button:hover {
+  box-shadow: 0px 1px 3px #2196F3;
+}
+.login:not(.loading) button:focus {
+  border-bottom-width: 4px;
+}
+
+
+footer a, footer a:link {
+  color: #fff;
+  text-decoration: none;
+}
+
+    </style>
+ <script src="js/prefixfree.min.js"></script>
+
+
+</head>
+<body onload="hideall()">
+
+<body >
+<div class="container">
+<nav class="navbar navbar-inverse navbar-static-top" role="navigation" style="margin-bottom: 0px;">
+            <div class="container">
+            
+<jsp:include page="Header.jsp"></jsp:include>
+               <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                       <li><a href="Home.jsp">Home</a></li>
+                       <li><a href="TransactionFetch.jsp">View Transaction</a></li>
+                       <!-- <li><a href="ApplyLoan.jsp">Apply Loan</a></li> -->
+                      
+                       
+                       <li><a href="StatementGeneration.jsp">E-Statement</a></li> 
+                        <li><a href="Update.jsp">Update</a></li>  
+                       <li><a href="Logout.jsp">Log Out</a></li>                                   
+                    </ul>
+                </div>
+
+    </div>
+   
+        </nav>
+</div>
+<%-- <div>
+<%@include file="WelcomeHeader.jsp" %>
+</div> --%>
+<div>
+<center>
+<h3>
+<span style="color:black">
+<%String s= (String)session.getAttribute("Customer_Id");
+out.println("Welcome Customer.\n  Your id is: "+s);
+%>
+</span>
+</h3>
+</center>
+</div>
+<br>
+
+<script>
+     function showEducation(LoanType)
+     {
+    	if(LoanType=='Ed')
+   		{
+       showRow('A'); 
+       showRow('B'); 
+       showRow('C');
+       showRow('D');
+       showRow('E');
+       showRow('F');
+       showRow('G');
+       showRow('H');
+       hideRow('I');
+       hideRow('J');
+       hideRow('K');
+       hideRow('L');
+       hideRow('M');
+       hideRow('N');
+       hideRow('O');
+   		}
+    	else if(LoanType=='others')
+     { hideRow('A');
+       hideRow('B');
+       hideRow('C');
+       hideRow('D');
+       hideRow('E');
+       hideRow('F');
+       hideRow('G');
+       showRow('H');
+       showRow('I');
+       showRow('J');
+       showRow('K');
+       showRow('L');
+       showRow('M');
+       showRow('N');
+       showRow('O');
+     }
+     }
+function showRow(id) {
+  var row = document.getElementById(id);
+  row.style.display = '';
+}
+
+function hideRow(id) {
+  var row = document.getElementById(id);
+  row.style.display = 'none';
+}
+
+
+
+function hideall() {
+  hideRow('A');
+  hideRow('B');
+  hideRow('C');
+  hideRow('D');
+  hideRow('E');
+  hideRow('F');
+  hideRow('G');
+  hideRow('H');
+  hideRow('I');
+  hideRow('J');
+  hideRow('K');
+  hideRow('L');
+  hideRow('M');
+  hideRow('N');
+  hideRow('O');
+
+}
+
+function hidden(){
+	document.getElementById("next").style.visibility="hidden";
+}
+function RedirectPage() {
+	switch(document.getElementById('sel').value)
+	{
+	case "A":
+		showEducation();
+		break;
+	case "B":
+		showOther();
+		break;
+	case "C":
+		showOther();
+		break;
+	}
+}
+
+</script>
+
+<h3 style="color: red;" align="center">
+
+<%try{String msg=(String)request.getAttribute("Message");
+if(msg!=null){
+if(msg.equalsIgnoreCase("error")){
+String error=(String)request.getAttribute("error");
+if(error!=null){
+     out.println(error);}}
+else if(msg.equalsIgnoreCase("success")){
+     String Loan_Id=(String)request.getAttribute("Loan_Id");
+     String LoanAccNo=(String)request.getAttribute("LoanAccNo");
+if(!Loan_Id.isEmpty())
+{
+     %>
+     <script>
+     var LAN='<%=LoanAccNo%>'
+     var LI='<%=Loan_Id%>';
+     var myWindow = window.open("", "MsgWindow", "width=450, height=150");		   		   
+	    myWindow.document.write("Loan applied successfully."+"\n Your Login Id is "+LI+" .  \nYour Loan Account Number is "+LAN+" .");
+	    mywindow.location("ApplyLoan.jsp");
+	    mywindow.close();
+     </script>
+     <% }
+}
+else if(msg.equalsIgnoreCase("fatalerror")){
+     %>
+     <script>
+     alert("Fatal error occured");
+     </script>
+     <% 
+}}}
+catch(NullPointerException e){
+     response.sendRedirect("Login.jsp");
+}
+%>
+</h3>
+<form method="post" action="LoanController" name="vForm" onsubmit="return Validate()" >
+<table style="margin: 0 auto;  " >
+<tr ><td>Loan Type</td>
+<td><select id="sel" name="LoanType" onclick="showEducation(this.value)">
+<option value="select"> --select--</option>
+<option value="Ed"  >Educational</option>
+<option value="others" >Housing</option>
+<option value="others" >Personal</option></select></td>
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+<tr class="alt"><td>Loan Amount</td><td>:<input type="text" 
+
+name="LoanAmount" /></td>
+</tr>
+<%Date d= new Date();
+SimpleDateFormat sdf= new SimpleDateFormat("dd/MM/yyyy");
+String s1= sdf.format(d);
+%>
+<tr><td>Loan Apply Date <span style="margin-
+
+left:124px"></span></td><td>:<input type="text" name="LoanApplyDate" 
+
+value="<%=s1%>" readonly="readonly"/>(DD/MM/YYYY)</td>
+</tr>
+<%LoanDAO ld=new LoanDAO();
+double value=0.0;
+try{
+String cus="";
+cus=(String)session.getAttribute("Customer_Id");
+
+
+s=ld.getCitizenStatus(cus);
+
+ if(s.equalsIgnoreCase("minor"))
+value=8.5;
+else if(s.equalsIgnoreCase("normal"))
+value=12.0;
+else
+     value=9.0;}
+catch(NullPointerException e){
+     response.sendRedirect("Login.jsp");
+}
+%>
+<tr class="alt"><td>Rate Of interest</td><td>:<input type="text" 
+
+name="RateOfinterest" value=<%=value%> readonly="readonly"/>%</td>
+</tr>
+<tr><td>Duration of the loan</td><td><select name="LoanDuration">
+<option value="select">--select--</option>
+<option value="B">5</option>
+<option value="C">10</option>
+<option value="D">15</option>
+<option value="E">20</option></select>yr</td>
+</tr>
+
+<tr id="A" class="alt" name="coursefee"><td>Course Fee</td><td>:<input type="text" 
+
+name="CourseFee" /></td>
+</tr>
+
+<tr id="B"><td>Course</td><td>:<input type="text" name="Course"/></td>
+</tr>
+<tr id="C"class="alt"><td>Father's Name</td><td>:<input type="text" 
+
+name="FatherName"/></td>
+</tr>
+<tr id="D"><td>Father's Occupation</td><td>:<input type="text" 
+
+name="FatherOccupation"/></td>
+</tr>
+<tr id="E"class="alt"><td>Father's Total Exp</td><td>:<input type="text" 
+
+name="FatherTotalExp"/></td>
+</tr>
+<tr id="F"><td>Father's Exp with Current Company</td><td>:<input 
+
+type="text" name="FatherExpwCC"/></td>
+</tr>
+<tr id="H" class="alt"><td>Annual Income</td><td>:<input type="text" 
+
+name="AnnualIncome"/></td>
+</tr>
+<tr id="G"><td>Ration Card No</td><td>:<input type="text" 
+
+name="RationCard"/></td>
+</tr>
+<tr id="I"><td>Company Name</td><td>:<input type="text" 
+
+name="CompanyName"/></td>
+</tr>
+<tr id="J" class="alt"><td>Designation</td><td>:<input type="text" 
+
+name="Designation"/></td>
+</tr>
+<tr id="K"><td>Total Exp</td><td>:<input type="text" 
+
+name="TotalExp"/></td>
+</tr>
+<tr id="L" class="alt"><td>Exp with Current Company</td><td>:<input 
+
+type="text" name="ExpCC"/></td>
+</tr>
+
+
+<tr id="M" ><td>Guarantor name</td><td>:<input type="text" name="GuarantorName"/></td>
+</tr>
+
+
+<tr id="N" class="alt"><td>Guarantor address</td><td>:<input type="text" name="GuarantorAddress"/></td>
+</tr>
+
+
+<tr id="O"><td>Guarantor income</td><td>:<input type="text" name="GuarantorIncome"/></td>
+</tr>
+
+
+
+<tr>
+<td align="center">
+<input type="submit" value="submit" name="Submit">
+</td>
+<td align="center">
+<input type="reset" value="Reset" name="Reset" />
+</td>
+</tr>
+
+</table>
+</form>
+</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+<jsp:include page="Footer.jsp"></jsp:include> 
+</body>
+</html>
+
+
+<script type="text/javascript">
+       // GETTING ALL INPUT TEXT FIELDS
+       var LoanAmount=document.forms["vForm"]["LoanAmount"];
+       var LoanType=document.forms["vForm"]["LoanType"];
+       var LoanDuration=document.forms["vForm"]["LoanDuration"];
+       var CourseFee = document.forms["vForm"]["CourseFee"];
+       var FatherName=document.forms["vForm"]["FatherName"];
+       var FatherOccupation=document.forms["vForm"]["FatherOccupation"];
+       var FatherTotalExp=document.forms["vForm"]["FatherTotalExp"];
+       var FatherExpwCC=document.forms["vForm"]["FatherExpwCC"];
+       var AnnualIncome=document.forms["vForm"]["AnnualIncome"];
+       
+       var CompanyName=document.forms["vForm"]["CompanyName"];
+       var Designation=document.forms["vForm"]["Designation"];
+       var TotalExp=document.forms["vForm"]["TotalExp"];
+       var ExpCC=document.forms["vForm"]["ExpCC"];
+     
+       
+       
+       var  GuarantorName =document.forms["vForm"]["GuarantorName"];
+      var GuarantorAddress=document.forms["vForm"]["GuarantorAddress"];
+      var  GuarantorIncome =document.forms["vForm"]["GuarantorIncome"];
+      
+       // Loan Type Check
+       function Validate(){
+             
+    	   if(LoanType.value == "select"){
+               alert("Please Select Loan Type");
+               return false;
+               LoanType.focus();
+               //return false;
+        }
+              //LoanAmount Negative
+              if(LoanAmount.value < 0){
+                     alert("Amount can not be Negative");
+                     return false;
+                     LoanAmount.focus();
+                     //return false;
+              }
+              // Duration Check
+              if(LoanDuration.value == "select"){
+                  alert("Please Select Loan Duration");
+                  return false;
+                  LoanDuration.focus();
+                  //return false;
+           }
+              if(CourseFee.value < 0 && LoanType.value == "Ed"){
+                  alert("Course fee Can not be Negative");
+                  return false;
+                  LoanAmount.focus();
+                  //return false;
+           }
+             
+              //fathersname
+              
+              if(FatherName.value =="" && LoanType.value == "Ed"){
+      			alert("Enter Father's name");
+      			return false;
+      		}
+      		if(FatherName.value!="" && LoanType.value == "Ed"){
+      			
+      			var letters = "[A-Za-z]"; 
+      		if(!FatherName.value.match(letters))
+      				{
+      				alert("Father's name should only contain Aplhabets");
+      				return false;
+      				}
+      			
+      		} 
+      		if(FatherOccupation.value ==""&& LoanType.value == "Ed"){
+      			alert("Enter Father's Occupation");
+      			return false;
+      		}
+            
+      		if((FatherTotalExp.value<0 || FatherTotalExp.value =="")&& LoanType.value == "Ed" ){
+      			alert("Enter Father's Total Experience");
+      			return false;
+      		}
+      		if((FatherExpwCC.value<0 || FatherExpwCC.value =="")&& LoanType.value == "Ed" ){
+      			alert("Enter Father's Current Experience");
+      			return false;
+      		}
+      		
+      		
+      		
+      	//AnnualIncome
+      		
+  			if(AnnualIncome.value ==""&& LoanType.value == "Ed"){
+  						alert("Enter Annual Income");
+  						return false;
+  					}
+  					if(AnnualIncome.value!=""&& LoanType.value == "Ed"){
+  						
+  						var letters ="[0-9]"; 
+  					if(!AnnualIncome.value.match(letters)&& LoanType.value == "Ed")
+  							{
+  							alert("AnnualIncome should not contain alphabets");
+  							return false;
+  							}
+  						
+  					} 
+  		
+      		
+  					
+  					
+//companyname
+  					
+  					/* if(CompanyName.value =="" && LoanType.value == "others"){
+  		      			alert("Enter Company Name");
+  		      			return false;
+  		      		} */
+  					
+  					if(Designation.value =="" && LoanType.value == "others"){
+  		      			alert("Enter Designation");
+  		      			return false;
+  		      		}
+  					
+  					
+  					if(TotalExp.value =="" && LoanType.value == "others"){
+  		      			alert("Enter Total Exp");
+  		      			return false;
+  		      		}
+  					if(ExpCC.value =="" && LoanType.value == "others"){
+  		      			alert("Enter Current Exp");
+  		      			return false;
+  		      		}
+  					if(GuarantorName.value =="" && LoanType.value == "others"){
+  		      			alert("Enter Guarantor Name");
+  		      			return false;
+  		      		} 
+  					
+  					 if(GuarantorAddress.value =="" && LoanType.value == "others"){
+  		      			alert("Enter Guarantor Address");
+  		      			return false;
+  		      		}
+  					
+  					
+  					if(GuarantorIncome.value ==""  && LoanType.value == "others"){
+  		      			alert("Enter Guarantor Income");
+  		      			return false;
+  		      		}
+						/* if(GuarantorIncome.value!="" && LoanType.value == "others"){
+  						
+  						var letters ="[0-9]"; 
+  					if(!GuarantorIncome.value.match(letters)&& LoanType.value == "others")
+  							{
+  							alert("Guarantor Income should not contain alphabets");
+  							return false;
+  							}  */
+  					 
+  					
+  					
+  					
+      		
+
+       }
+              </script>
+
+
